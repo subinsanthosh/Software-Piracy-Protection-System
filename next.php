@@ -25,9 +25,9 @@ session_start();
 							<?php
 								// Check if the user is logged in, if not then redirect him to login page
 								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
-									<p class="lead white-text" style="margin-left: 5px;" ><b>Hi, <?php echo htmlspecialchars($_SESSION["username"]); ?> !<br><b>We provide piracy protection to protect a software from being unlawfully duplicated online.</b></p>
+									<p class="lead white-text" style="margin-left: 5px; color: #13534f;;" ><b>Hi, <?php echo htmlspecialchars($_SESSION["username"]); ?> !<br><b>We provide piracy protection to protect a software from being unlawfully duplicated online.</b></p>
 
-                                    <a class="main-button icon-button" href="http://127.0.0.1:5000/">Get Started!</a>
+                                    <a class="main-button icon-button" href="products1.php">Browse Products ></a>
 
 								<?php else: ?>
 									<p class="lead white-text" style="margin-left: 5px;" ><b>Hi, <?php echo htmlspecialchars($_SESSION["username"]); ?> !<br><b>We provide piracy protection to protect a software from being unlawfully duplicated online.</b></p>
@@ -110,5 +110,5 @@ session_start();
 		</div>
 		<!-- /Contact CTA -->
 
-<?php include 'footer.php'?>
+<?php include 'footer1.php'?>
 </html>

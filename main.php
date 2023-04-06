@@ -32,7 +32,7 @@ session_start();
 								<?php else: ?>
 									<p class="lead white-text" style="margin-left: 5px;" ><b>Hi, <?php echo htmlspecialchars($_SESSION["username"]); ?> !<br><b>We provide piracy protection to protect a software from being unlawfully duplicated online.</b></p>
 
-									<a class="main-button icon-button" href="http://127.0.0.1:5000/">Get Started!</a>
+									<a class="main-button icon-button" href="login.php">Get Started!</a>
 								
 							<?php endif ?>
 							

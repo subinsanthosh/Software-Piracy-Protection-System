@@ -64,7 +64,7 @@ if(isset($_POST['name'])){
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'header.php'?>
+<?php include 'header1.php'?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Hero-area -->
 		<div class="hero-area section">
@@ -77,7 +77,7 @@ if(isset($_POST['name'])){
 				<div class="row" >
 					<div class="col-md-10 col-md-offset-1 text-center">
 						<ul class="hero-area-tree">
-							<li><a href="main.php">Home</a></li>
+							<li><a href="next.php">Home</a></li>
 							<li>Contact</li>
 						</ul>
 						<h1 class="white-text">Get In Touch</h1>
@@ -152,7 +152,7 @@ if(isset($_POST['name'])){
 					<!-- footer logo -->
 					<div class="col-md-6">
 						<div class="footer-logo">
-							<a class="logo" style="font-size: 30px;" href="main.php">SoftCare</a>
+							<a class="logo" style="font-size: 30px;" href="next.php">SoftCare</a>
 						</div>
 					</div>
 					<!-- footer logo -->

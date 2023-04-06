@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Charity Bank</title>
+	<title>Software Piracy Protection</title>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/styler.css">
@@ -24,6 +24,7 @@
         <input type="password" name="password" required>
       </label>
       <button type="submit" class="submit" name="login_user" >Sign In</button>
+      <a style="padding-left:230px;  color: green" href="admin.php" class="">Forgot Password?</a>
 
     
     </div>
