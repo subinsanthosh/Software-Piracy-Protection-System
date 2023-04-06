@@ -35,7 +35,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php">SoftCare</a>
+						<a class="logo" href="next.php">SoftCare</a>
 					</div>
 					<!-- /Logo -->
 
@@ -54,7 +54,7 @@
 				<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="main.php">Home</a></li>
+						<li><a href="next.php">Home</a></li>
                         <!-- <li class="dropdown">
                             <a class="dropbtn" href="javascript:void(0)">Services <span>&#11167;</span></a>
                             <div class="dropdown-content">
@@ -64,8 +64,9 @@
 								
                             </div>
                         </li> -->
-						<li><a href="main.php#about">About Us</a></li>
-						<li><a href="contact.php">Contact Us</a></li>
+						<li><a href="products1.php">Products</a></li>
+						<li><a href="next.php#about">About Us</a></li>
+						<li><a href="contact1.php">Contact Us</a></li>
 						<li><a href="logout.php" >Log out</a></li>
 						
                         
@@ -86,6 +87,7 @@
 								
                             </div>
                         </li>
+						<li><a href="products.php">Products</a></li>
 						<li><a href="main.php#about">About Us</a></li>
 						<li><a href="contact.php">Contact Us</a></li>
 						<li><a href="logout.php" >Log out</a></li>

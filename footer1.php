@@ -10,7 +10,7 @@
 					<!-- footer logo -->
 					<div class="col-md-6">
 						<div class="footer-logo">
-							<a class="logo" style="font-size: 30px;" href="main.php">SoftCare</a>
+							<a class="logo" style="font-size: 30px;" href="next.php">SoftCare</a>
 						</div>
 					</div>
 					<!-- footer logo -->
